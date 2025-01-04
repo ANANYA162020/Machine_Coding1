@@ -6,9 +6,9 @@ class Event:
         self.date = date
         self.registered_members = {}
         self.bids = {}
+        self.winner = None
 
-    def user_registered(self, user_id):
-        return user_id in self.registered_members
+
 
     
 
