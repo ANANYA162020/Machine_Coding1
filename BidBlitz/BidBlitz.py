@@ -4,7 +4,6 @@ from MemberManager import MemberManager
 from User import User
 from Event import Event
 import sys
-import os
 class BidBlitz:
     def __init__(self):
         self.event_manager = EventManager()
